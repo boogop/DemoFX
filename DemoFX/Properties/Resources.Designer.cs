@@ -73,6 +73,16 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Add_To_Favorite {
+            get {
+                object obj = ResourceManager.GetObject("Add To Favorite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AJ_Moon_1 {
             get {
                 object obj = ResourceManager.GetObject("AJ_Moon_1", resourceCulture);
@@ -273,6 +283,16 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Play {
+            get {
+                object obj = ResourceManager.GetObject("Play", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pyramid {
             get {
                 object obj = ResourceManager.GetObject("pyramid", resourceCulture);
@@ -296,6 +316,16 @@ namespace DemoFX.Properties {
         internal static System.Drawing.Bitmap tile2 {
             get {
                 object obj = ResourceManager.GetObject("tile2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Transfer {
+            get {
+                object obj = ResourceManager.GetObject("Transfer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
