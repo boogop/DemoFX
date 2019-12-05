@@ -39,8 +39,8 @@ Effects include:
 | Shadebobs. Uses angle arrays but not a heat structure so theres no cooling. To get around that we switch patterns. Loosely adapted from Flightcrank's example | <img src="shade.png" width="350px"></img>      | 
 | Rotozoomer | <img src="roto.png" width="350px"></img>      | 
 | Tri-layer plasma. Create a palette with a lot of black, then mask the black pixels. | <img src="triplas.png" width="350px"></img>      | 
-| XOR effects look very demo-y. | <img src="xor.png" width="350px"></img>      | 
-| Fractals. No matter how much you optimize the routine, you eventually run into the escape time algorithm which won't budge. | <img src="fractal.png" width="350px"></img>      | 
+| XOR effects look very demo-y. | <img src="XOR.png" width="350px"></img>      | 
+| Fractals. No matter how much you optimize the routine, you eventually run into the escape time algorithm which won't budge. | <img src="Fractal.png" width="350px"></img>      | 
 
 
  
