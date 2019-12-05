@@ -29,6 +29,9 @@ Effects include:
 - vector balls
 - shadebobs
 
+<img src="form.png" width="350px"></img> 
+
+
 | Effect        | Image         | 
 | ------------- |:-------------:|
 | Voxels. Not very common. The examples I could find were from the mid-90's and very mysterious. This is adapted from a 1998 QB example by Toshihiro Horie.     | <img src="voxels.png" width="350px"></img> | 
@@ -36,7 +39,7 @@ Effects include:
 | Vector balls. Adapted from Tumblin/Bodies In Motion, 1994. | <img src="rotato.png" width="350px"></img>       | 
 | Bobs. | <img src="bobs.png" width="350px"></img>     | 
 | Plasma clouds. I cheat by drawing the map once and then color cycling. | <img src="clouds.png" width="350px"></img>      | 
-| Shadebobs. Uses angle arrays but not a heat structure so theres no cooling. To get around that we switch patterns. Loosely adapted from Flightcrank's example | <img src="shade.png" width="350px"></img>      | 
+| Shadebobs. Uses angle arrays but not a heat structure so theres no cooling. To get around that we switch patterns. Loosely adapted from Flightcrank's example. | <img src="shade.png" width="350px"></img>      | 
 | Rotozoomer | <img src="roto.png" width="350px"></img>      | 
 | Tri-layer plasma. Create a palette with a lot of black, then mask the black pixels. | <img src="triplas.png" width="350px"></img>      | 
 | XOR effects look very demo-y. | <img src="XOR.png" width="350px"></img>      | 
