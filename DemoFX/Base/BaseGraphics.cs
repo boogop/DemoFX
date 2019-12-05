@@ -127,6 +127,17 @@ namespace DemoFX.Base
             }
         }
 
+        public void voxelPalette(ref colr[] colors)
+        {
+            for (int i = 0; i < 256; i++)
+            {
+                colors[i].r = i >> 1;
+                colors[i].g = i >> 1;
+                colors[i].b = i;
+            }
+        }
+
+
 
         public double d2r(double degrees)
         {
@@ -158,13 +169,9 @@ namespace DemoFX.Base
 
         private double GetAngle(double X, double Y)
         {
-
-            //pi = 4 * Atn(1)
             double GetAngle = 0;
             if (X < 0)
             {
-                //!!!!!Atn gives an angle from the ratio(X/Y) between the x
-                //!!!!!and y coordinate of a point.
                 GetAngle = Math.Atan(Y / X) + Math.PI;
             }
             else if (X > 0)

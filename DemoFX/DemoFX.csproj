@@ -65,6 +65,7 @@
     <Compile Include="FX\ShadeBobs.cs" />
     <Compile Include="FX\TriPlasma.cs" />
     <Compile Include="FX\Tunnel.cs" />
+    <Compile Include="FX\Voxels.cs" />
     <Compile Include="FX\XOR.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -80,6 +80,11 @@ namespace DemoFX.Base
             FX.Bobs.startIt += new FX.Bobs.startHandler(startFB);
             FX.Bobs.endIt += new FX.Bobs.endHandler(stopFB);
             FX.Bobs.updateIt += new FX.Bobs.updateHandler(drawFB);
+
+            FX.Voxels.drawIt += new FX.Voxels.drawHandler(drawScreen);
+            FX.Voxels.startIt += new FX.Voxels.startHandler(startFB);
+            FX.Voxels.endIt += new FX.Voxels.endHandler(stopFB);
+            FX.Voxels.updateIt += new FX.Voxels.updateHandler(drawFB);
         }
 
         public FastBitmap startFB()
