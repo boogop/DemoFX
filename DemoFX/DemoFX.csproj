@@ -62,6 +62,7 @@
     <Compile Include="FX\Bobs.cs" />
     <Compile Include="FX\Boxen.cs" />
     <Compile Include="FX\Clouds.cs" />
+    <Compile Include="FX\Floor.cs" />
     <Compile Include="FX\Fractal.cs" />
     <Compile Include="FX\Landscape.cs" />
     <Compile Include="FX\RotoZoom.cs" />
