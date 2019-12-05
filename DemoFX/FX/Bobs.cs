@@ -106,7 +106,6 @@ namespace DemoFX.FX
 
         public void doIt(string msg)
         {
-
             theGBMP.FillRectangle(Brushes.Black, 0, 0, theWidth, theHeight);
             theFB = startIt();
 
@@ -130,10 +129,9 @@ namespace DemoFX.FX
                     if (sx > theWidth || sy > theHeight) continue;
 
                     Color c = Color.FromArgb(X ^ Y);
-                   
-                        updateIt(sx, sy, c);
-                }
 
+                    updateIt(sx, sy, c);
+                }
             }
 
             count += 0.3;
@@ -155,7 +153,7 @@ namespace DemoFX.FX
                 l += 20;
                 m += 20;
             }
-          
+
             n += 1;
             o += 2;
             n &= 511;
