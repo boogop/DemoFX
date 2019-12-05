@@ -25,9 +25,7 @@ namespace DemoFX.FX
         colr[] colors;
         starfield starField;
         double pi2 = 6.283184;
-        //double z_speed = 6;
-        //double vertical_multiplier = 1;
-
+       
         public struct star
         {
             public double x, y, z, radius, num_points;
