@@ -44,7 +44,7 @@ Effects include:
 | Tri-layer plasma. Create a palette with a lot of black, then mask the black pixels. | <img src="triplas.png" width="350px"></img>      | 
 | XOR effects look very demo-y. | <img src="XOR.png" width="350px"></img>      | 
 | Fractals. No matter how much you optimize the routine, you eventually run into the escape time algorithm which won't budge. | <img src="Fractal.png" width="350px"></img>      | 
-| Dot tunnel, adapted C logic from an example by StoneMonkey. I'm going for the kind of look Xography got in their Crystal 2 BBS ad, for which no source exists. They've got some movement logic that eludes me. | <img src="tunnel.png" width="350px"></img>      | 
+| Dot tunnel, adapted from an example by StoneMonkey in Freebasic. I'm going for the kind of look Xography got in their Crystal 2 BBS ad, for which no source exists. They've got some movement logic that eludes me. | <img src="tunnel.png" width="350px"></img>      | 
 
  
  
