@@ -1,6 +1,10 @@
 # DemoFX
 Oldschool demo effects in C#
 
+<p align="center">
+<img src="demofx.png" width="350px"></img>
+</p>
+
 Look ma no frameworks!
 
 A project of dubious value to recreate some classic demo effects in C#, mainly ones you don't see very often or that are hard to find in C#. Done entirely in GDI+, no frameworks or OpenGL, just oldschool pixel pushing.
@@ -40,7 +44,7 @@ Effects include:
 | Bobs. | <img src="bobs.png" width="350px"></img>     | 
 | Plasma clouds. I cheat by drawing the map once and then color cycling. | <img src="clouds.png" width="350px"></img>      | 
 | Shadebobs. Uses angle arrays but not a heat structure so theres no cooling. To get around that we switch patterns. Loosely adapted from Flightcrank's example. | <img src="shade.png" width="350px"></img>      | 
-| Rotozoomer | <img src="roto.png" width="350px"></img>      | 
+| Rotozoomer. | <img src="roto.png" width="350px"></img>      | 
 | Tri-layer plasma. Create a palette with a lot of black, then mask the black pixels. | <img src="triplas.png" width="350px"></img>      | 
 | XOR effects look very demo-y. | <img src="XOR.png" width="350px"></img>      | 
 | Fractals. No matter how much you optimize the routine, you eventually run into the escape time algorithm which won't budge. | <img src="Fractal.png" width="350px"></img>      | 
