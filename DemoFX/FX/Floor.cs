@@ -19,8 +19,8 @@ namespace DemoFX.FX
 
         public delegate void drawHandler();
         public static event drawHandler drawIt;
-
-        int[,] colors;
+        
+        int[] clr;
         double turnF = 0;
         double scale = 250;
         double elevation = -40;
@@ -32,25 +32,18 @@ namespace DemoFX.FX
         {
             midWidth = theWidth >> 1;
             midHeight = theHeight >> 1;
-            colors = new int[128, 128];
             horiz = scale * elevation;
             floorStart = midHeight + 20;
             skipcolor = Color.FromArgb(0, 0, 0).ToArgb();
 
+            clr = new int[128];
 
             for (int i = 0; i < 128; i++)
-                for (int j = 0; j < 128; j++)
-                    colors[i, j] = Color.FromArgb(255, 255, 255).ToArgb();
+                clr[i] = Color.FromArgb(255, 255, 255).ToArgb();
 
             for (int i = 0; i < 64; i++)
-            {
-                for (int j = 0; j < 64; j++)
-                {
-                    colors[i, j] = Color.FromArgb(0, 0, 0).ToArgb();
-                    colors[i + 64, j + 64] = Color.FromArgb(0, 0, 0).ToArgb();
-                }
-            }
-
+                clr[i] = Color.FromArgb(0, 0, 0).ToArgb();
+           
         }
 
         public void doIt(string msg)
@@ -67,7 +60,7 @@ namespace DemoFX.FX
 
         private void doFloor()
         {
-            int uu;
+            int uu,u1;
             turnF += 2.8;
 
             for (int y = floorStart; y < theHeight; y++)
@@ -78,10 +71,10 @@ namespace DemoFX.FX
                 {
                     double u = (x - midWidth) * fvs + turnF;
 
-                    int u1 = (int)u;
-                    uu = ((u1 % 128) + 128) % 128;
+                    u1 = (int)u;
+                    uu = Math.Abs(u1 % 128);
 
-                    int fcol = colors[uu, 0];
+                    int fcol = clr[uu];
                     if (fcol > skipcolor)
                     {
                         updateIt(x, y, Color.White);

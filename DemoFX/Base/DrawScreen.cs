@@ -90,6 +90,11 @@ namespace DemoFX.Base
             FX.Floor.startIt += new FX.Floor.startHandler(startFB);
             FX.Floor.endIt += new FX.Floor.endHandler(stopFB);
             FX.Floor.updateIt += new FX.Floor.updateHandler(drawFB);
+
+            FX.PorkyBall.drawIt += new FX.PorkyBall.drawHandler(drawScreen);
+            FX.PorkyBall.startIt += new FX.PorkyBall.startHandler(startFB);
+            FX.PorkyBall.endIt += new FX.PorkyBall.endHandler(stopFB);
+            FX.PorkyBall.updateIt += new FX.PorkyBall.updateHandler(drawFB);
         }
 
         public FastBitmap startFB()

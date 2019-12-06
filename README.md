@@ -53,6 +53,7 @@ Effects include:
 | Fractals. No matter how much you optimize the routine, you eventually run into the escape time algorithm which won't budge. I even looked at this one in ILDASM but couldn't see much that would help. | <img src="Fractal.png" width="350px"></img>      | 
 | Dot tunnel, adapted from an example by StoneMonkey in Freebasic. I'm going for the kind of look Xography had in their Crystal 2 BBS ad, for which no source exists. They've got some movement logic that eludes me. | <img src="tunnel.png" width="350px"></img>      | 
 | Simple floorcasting. A very Amiga-y effect. | <img src="Floor.png" width="350px"></img>      | 
+| Porky ball. I'm not sure what these were called. | <img src="porky.png" width="350px"></img>      | 
  
  
 
