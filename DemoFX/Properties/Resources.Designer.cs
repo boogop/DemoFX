@@ -133,49 +133,9 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blumts {
-            get {
-                object obj = ResourceManager.GetObject("blumts", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap check {
             get {
                 object obj = ResourceManager.GetObject("check", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap checker4 {
-            get {
-                object obj = ResourceManager.GetObject("checker4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap checker41 {
-            get {
-                object obj = ResourceManager.GetObject("checker41", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cherry {
-            get {
-                object obj = ResourceManager.GetObject("cherry", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,16 +163,6 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mayan_outline1 {
-            get {
-                object obj = ResourceManager.GetObject("mayan_outline1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Moon1 {
             get {
                 object obj = ResourceManager.GetObject("Moon1", resourceCulture);
@@ -226,26 +176,6 @@ namespace DemoFX.Properties {
         internal static System.Drawing.Bitmap Moon2 {
             get {
                 object obj = ResourceManager.GetObject("Moon2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap mts {
-            get {
-                object obj = ResourceManager.GetObject("mts", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap palm {
-            get {
-                object obj = ResourceManager.GetObject("palm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,29 +203,9 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Plas7 {
-            get {
-                object obj = ResourceManager.GetObject("Plas7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Play {
             get {
                 object obj = ResourceManager.GetObject("Play", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap pyramid {
-            get {
-                object obj = ResourceManager.GetObject("pyramid", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +223,9 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tile2 {
+        internal static System.Drawing.Bitmap Transfer {
             get {
-                object obj = ResourceManager.GetObject("tile2", resourceCulture);
+                object obj = ResourceManager.GetObject("Transfer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +233,9 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Transfer {
+        internal static System.Drawing.Bitmap zowee {
             get {
-                object obj = ResourceManager.GetObject("Transfer", resourceCulture);
+                object obj = ResourceManager.GetObject("zowee", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

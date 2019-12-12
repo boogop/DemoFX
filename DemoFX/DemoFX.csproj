@@ -66,6 +66,7 @@
     <Compile Include="FX\Fractal.cs" />
     <Compile Include="FX\Landscape.cs" />
     <Compile Include="FX\PorkyBall.cs" />
+    <Compile Include="FX\Rain.cs" />
     <Compile Include="FX\RotoZoom.cs" />
     <Compile Include="FX\ShadeBobs.cs" />
     <Compile Include="FX\TriPlasma.cs" />
@@ -184,6 +185,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="chart.ico" />
+    <None Include="Resources\zowee.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
