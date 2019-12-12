@@ -9,7 +9,7 @@ Look ma no frameworks!
 
 A project of dubious value to recreate some classic demo effects in C#, mainly ones you don't see very often or that are hard/impossible to find in C#. Done entirely in GDI+, no frameworks or OpenGL, just oldschool pixel pushing.
 
-Salient points:
+## Salient points:
 - this is a mess.
 - no, really.
 - we use reflection to pull out all demo classes that inherit from iDemo. Thus the interface's only purpose is to allow me to identify which classes are effects and which aren't. Once we have the classes, we create an instance of them and invoke the necessary methods. So that part is at least kind of extensible.
@@ -18,12 +18,12 @@ Salient points:
 - we avoid frameworks (except GDI+) because the old method of demo coding was to do your own drawing [mov cx,[blah]; rep stosb; lol].
 - that being said, we use a standard cast-a-picturebox-to-a-bmp but then we use the FastBitmap class which uses pointers to manipulate the pixels.
 - None of these effects are originally mine though all have my work in them. Most are collected from the internet over many years and translated from whatever language (usually C or some flavor of pascal with embedded asm, much from HornetArchive) into C#. I'll take credit for the translation, optimization and getting them to work, but otherwise full credit for the original algorithms goes to the original authors (whoever those were). I've listed my sources when I could remember them.
-- Caveat: in the old demoscene, figuring out who or what group actually came up with an effect first was not easy to determine. In most cases the PC demoscene reused older effects that had originated in the Amiga scene. Still, don't be a l4m3r. Give credit where it's due if you didn't come up with everthing yourself. Quoting from the Hornet Archive reveals how common this practice was --> Space Port 2 BBS intro source by PSI : Sources to a BBS intro with ADlib music, scrollie, and star field all in 1993 bytes - The Adlib player in this BBS intro has been ripped and used time and time again by many people.  Simple and easy to use.  Kudos to those who have credited the source of where they got their player.
+- Caveat: in the old demoscene, figuring out who or what group actually came up with an effect first was not easy to determine. In most cases the PC demoscene reused older effects that had originated in the Amiga scene. Still, don't be a l4m3r. Give credit where it's due if you didn't come up with everthing yourself. Quoting from the Hornet Archive reveals how common this practice was --> *Space Port 2 BBS intro source by PSI : Sources to a BBS intro with ADlib music, scrollie, and star field all in 1993 bytes - The Adlib player in this BBS intro has been ripped and used time and time again by many people.  Simple and easy to use.  Kudos to those who have credited the source of where they got their player.*
 - I don't do copper bars. There is no way to do those in managed code, and not really a way to do them in assembly. Those were peculiar to the Amiga copper chip and drawing the bars is not how these were done. Even in assembly the closest I can get is to wait for [in al,dx; and al,08h;] and change the palette. It produces some cool effects but not really the same thing.
 - FASM is fun if you have a jones for this kind of thing in assembler.
 - Greets: http://dbfinteractive.com/ which is one of the best sites for demo code.
 
-Effects include:
+### Effects include:
 - bobs
 - rotozoomer
 - plasma clouds
@@ -36,6 +36,8 @@ Effects include:
 - shadebobs
 - floorcasting
 - porky ball
+- voxels
+- water
 
 <img src="form.png" width="350px"></img> 
 
