@@ -26,7 +26,8 @@ namespace DemoFX.FX
         private int[,] rawPic;
         private int _raindropHeight, _raindropWidth;
         private int RaindropCount = 0;
-        private int radius = 60;
+        private int radiusMin = 20;
+        private int radiusMax = 60;
         private double damp = .09;
         int blen, bwid;
         int dropCount = 0;
@@ -72,6 +73,7 @@ namespace DemoFX.FX
         private void PutDrop(int x, int y, int height)
         {
             // calculate the initial settings for a raindrop
+            int radius = RandomClass.Next(radiusMin, radiusMax);
             _ripplesPresent = true;          
             double dist;
             int tmpX;

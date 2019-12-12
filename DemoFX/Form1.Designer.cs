@@ -62,7 +62,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DemoFX.Properties.Resources.Add_To_Favorite;
+            this.pictureBox1.Image = global::DemoFX.Properties.Resources.AddToFavorite;
             this.pictureBox1.Location = new System.Drawing.Point(9, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(38, 36);

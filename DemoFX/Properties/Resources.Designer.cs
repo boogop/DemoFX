@@ -73,9 +73,9 @@ namespace DemoFX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Add_To_Favorite {
+        internal static System.Drawing.Bitmap AddToFavorite {
             get {
-                object obj = ResourceManager.GetObject("Add To Favorite", resourceCulture);
+                object obj = ResourceManager.GetObject("AddToFavorite", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
