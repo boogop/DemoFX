@@ -55,7 +55,7 @@ Effects include:
 | Dot tunnel, adapted from an example by StoneMonkey in Freebasic. I'm going for the kind of look Xography had in their Crystal 2 BBS ad, for which no source exists. They've got some movement logic that eludes me. | <img src="tunnel.png" width="350px"></img>      | 
 | Simple floorcasting. A very Amiga-y effect. | <img src="Floor.png" width="350px"></img>      | 
 | Porky ball. I'm not sure what these were called. | <img src="porky.png" width="350px"></img>      | 
-| Water effect. Very common, even in C#, but still a great effect. This is adapted from Cristian Tratz who got it from dswigger who got it from...the algorithm is well known so a lot of the examples are going to look similar. | <img src="water.png" width="350px"></img>      | 
+| Water effect. Very common, even in C#, but still a great effect. This is adapted from an example by Cristian Tratz. | <img src="water.png" width="350px"></img>      | 
  
  
 
