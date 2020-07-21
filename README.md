@@ -2,7 +2,7 @@
 Oldschool demo effects, once popular in the DemoScene, now in C#
 
 <p align="center">
-<img src="demofx.png" width="350px"></img>
+ ![DemoFX](/demofx.png)
 </p>
 
 Look ma no frameworks!
