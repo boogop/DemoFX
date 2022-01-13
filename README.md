@@ -69,6 +69,10 @@ aka crap that was 'new' in like 1982
 | Rotating box-o-dots. This is an ancient way of doing 3D rotation manually. My box looks borked, possibly because I'd originally done this at mode 13 resolution. Oh well. | <img src="box.png" width="350px"></img>       | 
 | Sphere. I got this algorithm from somewhere but it was so stupidly common there's no telling where | <img src="sphere.png" width="350px"></img>     | 
 | Fire. My fire in ASM looks amazing. My fire in .NET looks like ass | <img src="fire.png" width="350px"></img>      | 
+| Mod player! Seriously why would you want to do this? But here's how. Be warned, it's kind of a janky process. I got sharpmod from here https://github.com/jaredthirsk/sharpmod then compiled it, and made sure it and naudio (it's included, don't use the one on nuget) were in my build directory along with the mod I wanted to play.
+
+Song: starlit deception by necros, who is an amazing mod author
+https://modarchive.org/index.php?request=view_by_moduleid&query=174071 | <img src="mod.png" width="350px"></img>     | 
  
 
 
