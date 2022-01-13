@@ -1,4 +1,4 @@
-# DemoFX
+# DemoFX (Now with even more kludgy effects!)
 Oldschool demo effects, once popular in the DemoScene, now in C#
 
 <p align="center">
@@ -59,8 +59,8 @@ A project of dubious value to recreate some classic demo effects in C#, mainly o
 | Porky ball. I'm not sure what these were called. | <img src="porky.png" width="350px"></img>      | 
 | Water effect. Very common, even in C#, but still a great effect. This is adapted from an example by Cristian Tratz. | <img src="water.png" width="350px"></img>      | 
  
-### RIGHTEOUS NEW NEVER BEFORE SEEN EFFECTS:
-aka crap that was 'new' in like 1982
+### RIGHTEOUS NEW NEVER BEFORE SEEN EFFECTS OMG:
+aka crap that was 'new' when Reagan was president
 
 | Effect        | Image         | 
 | ------------- |:-------------:|
