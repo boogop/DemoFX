@@ -55,18 +55,19 @@ A project of dubious value to recreate some classic demo effects in C#, mainly o
 | XOR effects are simple and look very demo-y. | <img src="XOR.png" width="350px"></img>      | 
 | Fractals. No matter how much you optimize the routine, you eventually run into the escape time algorithm which won't budge. I even looked at this one in ILDASM but couldn't see much that would help. | <img src="Fractal.png" width="350px"></img>      | 
 | Dot tunnel, adapted from an example by StoneMonkey in Freebasic. I'm going for the kind of look Xography had in their Crystal 2 BBS ad, for which no source exists. They've got some movement logic that eludes me. | <img src="tunnel.png" width="350px"></img>      | 
-| Simple floorcasting. A very Amiga-y effect. Seen in Megademo by Dexion, 89. | <img src="Floor.png" width="350px"></img>      | 
+| Simple floorcasting. A very Amiga-y effect. Seen in Megademo by Dexion, 89. I should note that this one is actually my own work. The formula double fvs = (horiz / (y - midHeight)) / scale; was actually supposed to be part of a checkerboard but I screwed something up. | <img src="Floor.png" width="350px"></img>      | 
 | Porky ball. I'm not sure what these were called. | <img src="porky.png" width="350px"></img>      | 
 | Water effect. Very common, even in C#, but still a great effect. This is adapted from an example by Cristian Tratz. | <img src="water.png" width="350px"></img>      | 
  
- ### AMAZING NEW EFFECTS:
+### RIGHTEOUS NEW NEVER BEFORE SEEN EFFECTS:
+aka crap that was 'new' in like 1982
 
 | Effect        | Image         | 
 | ------------- |:-------------:|
 | Parallax stars. The screenshot looks like wtf   | <img src="parallax.png" width="350px"></img> | 
 | 3D stars. The screenshot also looks like wtf   | <img src="3dstars.png" width="350px"></img>      | 
-| Rotating box-o-dots. This is an ancient way of doing 3D rotation manually | <img src="box.png" width="350px"></img>       | 
-| Sphere. Why not | <img src="sphere.png" width="350px"></img>     | 
+| Rotating box-o-dots. This is an ancient way of doing 3D rotation manually. My box looks borked, possibly because I'd originally done this at mode 13 resolution. Oh well. | <img src="box.png" width="350px"></img>       | 
+| Sphere. I got this algorithm from somewhere but it was so stupidly common there's no telling where | <img src="sphere.png" width="350px"></img>     | 
 | Fire. My fire in ASM looks amazing. My fire in .NET looks like ass | <img src="fire.png" width="350px"></img>      | 
  
 
