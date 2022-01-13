@@ -59,8 +59,15 @@ A project of dubious value to recreate some classic demo effects in C#, mainly o
 | Porky ball. I'm not sure what these were called. | <img src="porky.png" width="350px"></img>      | 
 | Water effect. Very common, even in C#, but still a great effect. This is adapted from an example by Cristian Tratz. | <img src="water.png" width="350px"></img>      | 
  
- 
+ ### AMAZING NEW EFFECTS:
 
+| Effect        | Image         | 
+| ------------- |:-------------:|
+| Parallax stars. The screenshot looks like wtf   | <img src="parallax.png" width="350px"></img> | 
+| 3D stars. The screenshot also looks like wtf   | <img src="3dstars.png" width="350px"></img>      | 
+| Rotating box-o-dots. This is an ancient way of doing 3D rotation manually | <img src="box.png" width="350px"></img>       | 
+| Sphere. Why not | <img src="sphere.png" width="350px"></img>     | 
+| Fire. My fire in ASM looks amazing. My fire in .NET looks like ass | <img src="fire.png" width="350px"></img>      | 
  
 
 
