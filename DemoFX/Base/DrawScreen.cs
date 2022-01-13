@@ -143,7 +143,7 @@ namespace DemoFX.Base
         {
             bool inWidth = x > theMarginWidth && x < theWidth - theMarginWidth;
             bool inHeight = y > theMarginHeight && y < theHeight - theMarginHeight;
-
+            
             if (inWidth && inHeight)
                 fb.SetPixel(x, y, co);
         }

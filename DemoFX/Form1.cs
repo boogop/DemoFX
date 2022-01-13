@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Reflection;
+using SharpMod;
+using SharpMod.Song;
+using SharpMod.SoundRenderer;
 
 #pragma warning disable 0649
 
@@ -27,6 +30,10 @@ namespace DemoFX
         const double PI = 3.14159;
         Base.DrawScreen cDraw;
         bool doit = false;
+
+        public SongModule myMod { get; set; }
+        public ModulePlayer player { get; set; }
+
 
         public Form1()
         {
@@ -51,6 +58,16 @@ namespace DemoFX
                 listBox1.Items.Add(a[i]);
 
             init();
+
+            string mod = Application.StartupPath + @"\starlitdeception.mod";
+
+            myMod = ModuleLoader.Instance.LoadModule(mod);
+
+            player = new ModulePlayer(myMod);
+            player.MixCfg.Rate = 48000;
+            NAudioWaveChannelDriver drv = new NAudioWaveChannelDriver(NAudioWaveChannelDriver.Output.WaveOut);
+            player.RegisterRenderer(drv);
+            player.Start();
 
         }
 
@@ -94,6 +111,22 @@ namespace DemoFX
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             doit = false;
+        }
+
+        private void btnMusic_Click(object sender, EventArgs e)
+        {
+            if(player.IsPlaying)
+            {
+                player.Stop();
+                btnMusic.Image = DemoFX.Properties.Resources.greenoff1;
+                lblMusic.Text = "ok turn the dumb music back on";
+            }
+            else
+            {
+                player.Start();
+                btnMusic.Image = DemoFX.Properties.Resources.greenon1;
+                lblMusic.Text = "turn off the music it sounds like dude weed";
+            }
         }
 
         private void initForm<T>(T obj) where T : Base.BaseGraphics, new()
