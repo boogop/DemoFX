@@ -31,6 +31,31 @@ namespace DemoFX.Base
 
         public DrawScreen()
         {
+            FX._Fire.drawIt += new FX._Fire.drawHandler(drawScreen);
+            FX._Fire.startIt += new FX._Fire.startHandler(startFB);
+            FX._Fire.endIt += new FX._Fire.endHandler(stopFB);
+            FX._Fire.updateIt += new FX._Fire.updateHandler(drawFB);
+
+            FX._Sphere.drawIt += new FX._Sphere.drawHandler(drawScreen);
+            FX._Sphere.startIt += new FX._Sphere.startHandler(startFB);
+            FX._Sphere.endIt += new FX._Sphere.endHandler(stopFB);
+            FX._Sphere.updateIt += new FX._Sphere.updateHandler(drawFB);
+
+            FX._Simple3D.drawIt += new FX._Simple3D.drawHandler(drawScreen);
+            FX._Simple3D.startIt += new FX._Simple3D.startHandler(startFB);
+            FX._Simple3D.endIt += new FX._Simple3D.endHandler(stopFB);
+            FX._Simple3D.updateIt += new FX._Simple3D.updateHandler(drawFB);
+
+            FX._3DStars.drawIt += new FX._3DStars.drawHandler(drawScreen);
+            FX._3DStars.startIt += new FX._3DStars.startHandler(startFB);
+            FX._3DStars.endIt += new FX._3DStars.endHandler(stopFB);
+            FX._3DStars.updateIt += new FX._3DStars.updateHandler(drawFB);
+
+            FX._ParallaxStars.drawIt += new FX._ParallaxStars.drawHandler(drawScreen);
+            FX._ParallaxStars.startIt += new FX._ParallaxStars.startHandler(startFB);
+            FX._ParallaxStars.endIt += new FX._ParallaxStars.endHandler(stopFB);
+            FX._ParallaxStars.updateIt += new FX._ParallaxStars.updateHandler(drawFB);
+
             FX.RotoZoom.drawIt += new FX.RotoZoom.drawHandler(drawScreen);
             FX.RotoZoom.startIt += new FX.RotoZoom.startHandler(startFB);
             FX.RotoZoom.endIt += new FX.RotoZoom.endHandler(stopFB);
