@@ -1,4 +1,4 @@
-# DemoFX
+# DemoFX (Now with even more kludgy effects!)
 Oldschool demo effects, once popular in the DemoScene, now in C#
 
 <p align="center">
@@ -59,8 +59,8 @@ A project of dubious value to recreate some classic demo effects in C#, mainly o
 | Porky ball. I'm not sure what these were called. | <img src="porky.png" width="350px"></img>      | 
 | Water effect. Very common, even in C#, but still a great effect. This is adapted from an example by Cristian Tratz. | <img src="water.png" width="350px"></img>      | 
  
-### RIGHTEOUS NEW NEVER BEFORE SEEN EFFECTS:
-aka crap that was 'new' in like 1982
+### RIGHTEOUS NEW NEVER BEFORE SEEN EFFECTS OMG:
+aka crap that was 'new' when Reagan was president
 
 | Effect        | Image         | 
 | ------------- |:-------------:|
@@ -69,6 +69,7 @@ aka crap that was 'new' in like 1982
 | Rotating box-o-dots. This is an ancient way of doing 3D rotation manually. My box looks borked, possibly because I'd originally done this at mode 13 resolution. Oh well. | <img src="box.png" width="350px"></img>       | 
 | Sphere. I got this algorithm from somewhere but it was so stupidly common there's no telling where | <img src="sphere.png" width="350px"></img>     | 
 | Fire. My fire in ASM looks amazing. My fire in .NET looks like ass | <img src="fire.png" width="350px"></img>      | 
+| Mod player! Seriously why would you want to do this? But here's how. Be warned, it's kind of a janky process. I got sharpmod from here jaredthirsk on github then compiled it, and made sure it and naudio (it's included, don't use the one on nuget) were in my build directory along with the mod I wanted to play. Song: starlit deception by necros, who is an amazing mod author. Find his stuff on modarchive.org ftw | <img src="mod.png" width="350px"></img>     | 
  
 
 
