@@ -72,7 +72,7 @@ aka crap that was 'new' when Reagan was president
 
 ### PLAYING MUSIC
 
-| Mod player! Seriously why would you want to do this? But here's how. Be warned, it's kind of a janky process. I got sharpmod from here https://github.com/jaredthirsk/sharpmod then compiled it, and made sure it and naudio (it's included, don't use the one on nuget) were in my build directory along with the mod I wanted to play. Song: starlit deception by necros, who is an amazing mod author. Find his stuff on modarchive.org ftw | <img src="mod.png" width="350px"></img>     | 
+| Mod player! Seriously why would you want to do this? But here's how. Be warned, it's kind of a janky process. I got sharpmod from here jaredthirsk on github then compiled it, and made sure it and naudio (it's included, don't use the one on nuget) were in my build directory along with the mod I wanted to play. Song: starlit deception by necros, who is an amazing mod author. Find his stuff on modarchive.org ftw | <img src="mod.png" width="350px"></img>     | 
  
 
 
