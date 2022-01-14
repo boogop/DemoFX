@@ -31,6 +31,11 @@ namespace DemoFX.Base
 
         public DrawScreen()
         {
+            FX._Scroller.drawIt += new FX._Scroller.drawHandler(drawScreen);
+            FX._Scroller.startIt += new FX._Scroller.startHandler(startFB);
+            FX._Scroller.endIt += new FX._Scroller.endHandler(stopFB);
+            FX._Scroller.updateIt += new FX._Scroller.updateHandler(drawFB);
+
             FX._Fire.drawIt += new FX._Fire.drawHandler(drawScreen);
             FX._Fire.startIt += new FX._Fire.startHandler(startFB);
             FX._Fire.endIt += new FX._Fire.endHandler(stopFB);

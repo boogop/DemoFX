@@ -87,6 +87,7 @@
     <Compile Include="FX\PorkyBall.cs" />
     <Compile Include="FX\Rain.cs" />
     <Compile Include="FX\RotoZoom.cs" />
+    <Compile Include="FX\Scroller.cs" />
     <Compile Include="FX\ShadeBobs.cs" />
     <Compile Include="FX\Simple3D.cs" />
     <Compile Include="FX\Sphere.cs" />
