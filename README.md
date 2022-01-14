@@ -51,7 +51,7 @@ A project of dubious value to recreate some classic demo effects in C#, mainly o
 | Plasma clouds. I cheat by drawing the map once and then color cycling. | <img src="clouds.png" width="350px"></img>      | 
 | Shadebobs. Uses angle arrays but not a heat structure so theres no cooling. To get around that we switch patterns. Loosely adapted from Flightcrank's example. | <img src="shade.png" width="350px"></img>      | 
 | Rotozoomer. Adapted from TDEC by W.P. van Paassen. | <img src="roto.png" width="350px"></img>      | 
-| Tri-layer plasma. Create a palette with a lot of black, then don't draw the black pixels. | <img src="triplas.png" width="350px"></img>      | 
+| Tri-layer plasma. Create a palette with a lot of black, then don't draw the black pixels. Credit to... W.P. van Paassen? ... for the sin/cos table indexing --> tpos1 &= 511; which is a very spiffy trick. I find having colors in an array makes them a little easier to deal with for this kind of thing than sticking them all in the DX register. | <img src="triplas.png" width="350px"></img>      | 
 | XOR effects are simple and look very demo-y. | <img src="XOR.png" width="350px"></img>      | 
 | Fractals. No matter how much you optimize the routine, you eventually run into the escape time algorithm which won't budge. I even looked at this one in ILDASM but couldn't see much that would help. | <img src="Fractal.png" width="350px"></img>      | 
 | Dot tunnel, adapted from an example by StoneMonkey in Freebasic. I'm going for the kind of look Xography had in their Crystal 2 BBS ad, for which no source exists. They've got some movement logic that eludes me. | <img src="tunnel.png" width="350px"></img>      | 
