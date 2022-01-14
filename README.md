@@ -70,6 +70,7 @@ aka crap that was 'new' when Reagan was president
 | Sphere. I got this algorithm from somewhere but it was so stupidly common there's no telling where | <img src="sphere.png" width="350px"></img>     | 
 | Fire. My fire in ASM looks amazing. My fire in .NET looks like ass | <img src="fire.png" width="350px"></img>      | 
 | Mod player! Seriously why would you want to do this? But here's how. Be warned, it's kind of a janky process. I got sharpmod from here jaredthirsk on github then compiled it, and made sure it and naudio (it's included, don't use the one on nuget) were in my build directory along with the mod I wanted to play. Song: starlit deception by necros, who is an amazing mod author. Find his stuff on modarchive.org ftw | <img src="mod.png" width="350px"></img>     | 
+| Scrollers. Take a string, break it up into an array of chars, then stick each char in a struct (or class if you're a purist lol) with xy coords. It works fine but the problem is: I've never found a way in .NET to load old bitmap fonts, so we're stuck with whatever the system can render (in this case 'arial' ugh). It would be possible to convert a font image from .pcx (or whatever else groups were doing them in) to a .png, load it into your resource file, then section out the letters in code but that's way more work than I feel like doing. | <img src="scroller.png" width="350px"></img>      | 
  
 
 
